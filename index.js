@@ -17,6 +17,6 @@ app.get("/", (req, res) => {
 
 app.use(uploadRouter);
 
-app.listen(process.env.port, () => {
+app.listen(process.env.PORT, () => {
   console.log(`port is rocking at ${port}`);
 });
